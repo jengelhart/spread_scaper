@@ -8,7 +8,7 @@ def calcSpread( bid, ask):
     return ((ask - bid) / bid) * 100
 
 # "sign-in"
-client = Client('5a5a7fbd1e789d2e74d96248', 'beb20272-f6e0-460b-a598-5f9fc8261673')
+client = Client('key1', 'key2')
 
 # set runtime vars manually
 pair = "ETH-BTC"
